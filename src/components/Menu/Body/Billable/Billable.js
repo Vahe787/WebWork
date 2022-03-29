@@ -77,7 +77,7 @@ export default function Billable() {
       </div>
       <div>
         <div className=" flex-col flex justify-center items-center text-gray-700">
-          <p className="mt-10 text-center w-3/5">
+          <p className="mt-10 text-center w-2/5">
             Set an hourly rate to your contracts to mark them as billable. Get
             amount reports and{" "}
             <a href="./generate" className="border-2 border-b-indigo-900">

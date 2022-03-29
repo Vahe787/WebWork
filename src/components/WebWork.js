@@ -9,7 +9,7 @@ import {
   WebWorkLogo,
 } from "./Menu/NavBar";
 
-import Billable from "./Menu/Body/Billable";
+import Billable from "./Menu/Body/Billable/Billable";
 
 export default function WebWork() {
   return (
@@ -45,7 +45,7 @@ export default function WebWork() {
         </nav>
       </div>
 
-      <div>
+      <div className="h-96">
         <Billable />
       </div>
     </div>
