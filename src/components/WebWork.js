@@ -11,6 +11,7 @@ import {
 
 import Billable from "./Menu/Body/Billable/Billable";
 import Task from "./Menu/Body/Task/Task";
+import Amount from "./Menu/Body/Amount/Amount";
 
 export default function WebWork() {
   return (
@@ -50,8 +51,12 @@ export default function WebWork() {
         <Billable />
       </div>
 
-      <div className="h-96">
+      <div className="h-44">
         <Task />
+      </div>
+
+      <div>
+        <Amount />
       </div>
     </div>
   );
