@@ -12,6 +12,7 @@ import {
 import Billable from "./Menu/Body/Billable/Billable";
 import Task from "./Menu/Body/Task/Task";
 import Amount from "./Menu/Body/Amount/Amount";
+import FinInfo from "./Menu/Body/FinInfo/FinInfo";
 
 export default function WebWork() {
   return (
@@ -57,6 +58,10 @@ export default function WebWork() {
 
       <div>
         <Amount />
+      </div>
+
+      <div>
+        <FinInfo />
       </div>
     </div>
   );
