@@ -13,6 +13,8 @@ import Billable from "./Menu/Body/Billable/Billable";
 import Task from "./Menu/Body/Task/Task";
 import Amount from "./Menu/Body/Amount/Amount";
 import FinInfo from "./Menu/Body/FinInfo/FinInfo";
+import FinPerm from "./Menu/Body/FinPerm/FinPerm";
+import MyFeatures from "./Menu/Body/Features/MyFeatures";
 
 export default function WebWork() {
   return (
@@ -62,6 +64,12 @@ export default function WebWork() {
 
       <div>
         <FinInfo />
+      </div>
+      <div>
+        <FinPerm />
+      </div>
+      <div>
+        <MyFeatures />
       </div>
     </div>
   );

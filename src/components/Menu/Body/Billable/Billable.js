@@ -80,7 +80,10 @@ export default function Billable() {
           <p className="mt-10 text-center w-2/5">
             Set an hourly rate to your contracts to mark them as billable. Get
             amount reports and{" "}
-            <a href="./generate" className="border-2 border-b-indigo-900">
+            <a
+              href="./generate"
+              className="border-2 border-white border-b-indigo-900"
+            >
               generate invoices
             </a>{" "}
             to get paid.

@@ -9,7 +9,7 @@ import CostomizedSlider from "../Amount/Slider";
 
 export default function FinInfo() {
   return (
-    <div className=" flex justify-center mt-44 bg-blue-300">
+    <div className=" flex justify-center mt-44 bg-blue-300 pt-20 pb-20">
       <div className="ml-20 pr-28 text-white">
         <p className="text-4xl font-bold">
           Permissions to Financial Information
