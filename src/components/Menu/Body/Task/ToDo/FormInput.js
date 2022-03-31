@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
 import { makeStyles, ThemeProvider } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import FormHelperText from "@material-ui/core/FormHelperText";
@@ -15,7 +14,7 @@ const useStyles = makeStyles({
     margin: "15px 0 0 20px",
   },
   label: {
-    width: "70%",
+    width: "50%",
   },
 
   div: {
@@ -39,7 +38,7 @@ const TodoCreator = ({
   const classes = useStyles();
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} sx={{ display: "flex" }}>
       <FormControl className={classes.label}>
         <TextField
           id="outlined-basic"
@@ -63,14 +62,14 @@ const TodoCreator = ({
           </>
         )}
       </FormControl>
-      <Button
+      <button
         type="submit"
         alt="add-note"
-        className={classes.root}
         onKeyPress={preventSubmit}
+        className=" border-solid border-2 pt-3 pb-3 pl-10 pr-10 bg-purple-500 border-purple-500 cursor-pointer rounded-3xl text-base"
       >
-        Add task
-      </Button>
+        <p className="text-white">Start 7 Days Free Trial</p>
+      </button>
     </ThemeProvider>
   );
 };

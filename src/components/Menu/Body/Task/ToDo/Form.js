@@ -80,7 +80,7 @@ const Form = () => {
 
   return (
     <form
-      style={{ marginLeft: 150, marginTop: 10 }}
+      style={{ marginLeft: 80, marginTop: 10, paddingTop: 10 }}
       onSubmit={handleSubmit}
       className="form"
     >

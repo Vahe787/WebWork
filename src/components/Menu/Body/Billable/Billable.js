@@ -1,6 +1,6 @@
 export default function Billable() {
   return (
-    <div>
+    <div className="bg-slate-100 pt-10">
       <div className="flex justify-center">
         <div>
           <svg
@@ -82,7 +82,7 @@ export default function Billable() {
             amount reports and{" "}
             <a
               href="./generate"
-              className="border-2 border-white border-b-indigo-900"
+              className="border-2 border-transparent border-b-indigo-900"
             >
               generate invoices
             </a>{" "}

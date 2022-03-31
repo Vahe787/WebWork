@@ -4,8 +4,8 @@ import Paper from "@mui/material/Paper";
 
 export default function MyFeatures() {
   return (
-    <div>
-      <div className="text-center pt-44">
+    <div className="bg-slate-100 mt-20 ">
+      <div className="text-center pt-20">
         <p className="text-4xl font-bold text-gray-700">Features</p>
         <p className="pt-8 font-bold text-gray-700">
           Get The Most Out of Your Work
@@ -196,7 +196,7 @@ export default function MyFeatures() {
                   </defs>
                 </svg>
               </div>
-              <p className="pl-12 pr-12 pt-3 text-2xl font-bold text-gray-700">
+              <p className="pl-16 pr-16 pt-3 text-2xl font-bold text-gray-700">
                 Real-time reports
               </p>
               <p className="pt-10 pl-10 pr-10 text-gray-700">
@@ -317,6 +317,14 @@ export default function MyFeatures() {
           </Box>
         </div>
       </div>
+      <p className="text-center pt-20 text-gray-700 pb-32">
+        <a
+          href="./generate"
+          className="border-2 border-transparent border-b-indigo-900"
+        >
+          More Features
+        </a>
+      </p>
     </div>
   );
 }

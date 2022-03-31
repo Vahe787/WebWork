@@ -15,6 +15,8 @@ import Amount from "./Menu/Body/Amount/Amount";
 import FinInfo from "./Menu/Body/FinInfo/FinInfo";
 import FinPerm from "./Menu/Body/FinPerm/FinPerm";
 import MyFeatures from "./Menu/Body/Features/MyFeatures";
+import FAQs from "./Menu/Body/FAQss/FAQs";
+import Footer from "./Menu/Footer/Footer";
 
 export default function WebWork() {
   return (
@@ -70,6 +72,12 @@ export default function WebWork() {
       </div>
       <div>
         <MyFeatures />
+      </div>
+      <div>
+        <FAQs />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

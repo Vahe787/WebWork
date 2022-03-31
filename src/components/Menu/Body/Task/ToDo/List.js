@@ -14,7 +14,7 @@ import BookmarkIcon from "@material-ui/icons/Bookmark";
 
 const useStyles = makeStyles(() => ({
   root: {
-    width: "70%",
+    width: "90%",
     marginTop: "10px",
     backgroundColor: "#f5f5f5",
     padding: 0,
