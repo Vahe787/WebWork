@@ -23,7 +23,7 @@ export default function WebWork() {
     <div>
       <div>
         <nav>
-          <header className="h-40">
+          <header className="pb-2">
             <div>
               <ul className="flex justify-center  mt-4 text-gray-700">
                 <WebWorkLogo />{" "}

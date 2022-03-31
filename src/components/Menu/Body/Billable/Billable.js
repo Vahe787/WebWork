@@ -1,6 +1,6 @@
 export default function Billable() {
   return (
-    <div className="bg-slate-100 pt-10">
+    <div className="bg-slate-100 pt-20 pb-5 ">
       <div className="flex justify-center">
         <div>
           <svg
