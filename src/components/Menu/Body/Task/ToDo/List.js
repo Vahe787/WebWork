@@ -20,7 +20,8 @@ const useStyles = makeStyles(() => ({
     padding: 0,
   },
   li: {
-    borderBottom: "1px dashed black",
+    color: "#263238",
+    text: "200px",
   },
 }));
 
